@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sc p-1 .0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- instagram icon -->
+    <nav class="navbar bg-body-tertiary p-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>
+            <div class="row gx-2">
+                <!-- Button crear nuevo post -->
+                <div class="col-9 p-1  align-self-start">
+                    <button type="button" class="btn btn-success gx-0;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a new post
+                    </button>
+                </div>
+              <!-- GEAR ICON -->
+                <div class="col-3 p-1  align-self-start gx-0">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle me-1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <ul class="dropdown-menu  dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </nav>
+     <!-- ICON TABLE-CELL -->
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">  <i class="fa-solid fa-table-cells"></i> </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"> <i class="fa-solid fa-square"></i></button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"> 
+
+                    <div class="card card-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 "> <img src="https://www.cmdsport.com/app/uploads/2023/07/boxeo-mma.jpg" class="img-fluid w-100 h-100" alt="deporte boxeo"> </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 "> <img src="https://instrumentarte.com/wp-content/uploads/2017/10/consejos-guitarristas-conciertos.jpg" class="img-fluid w-100 h-100" alt="persona tocando guitarra"></div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 "><img src="https://elrincondelaabuelavenezolana.com/wp-content/uploads/2018/03/el-pabellon-criollo-del-rincon-abuela-venezolana.jpg" class="img-fluid w-100 h-100" alt="plato tipico venezolano llamdo pabellon criollo"></div>
+                        </div>
+            
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://ongteprotejo.org/wp-content/uploads/2014/10/adorable-chanchito-feliz.jpg" class="img-fluid w-100 h-100" alt="imagen playa la barceloneta"> </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://lacasadegestalt.es/wp-content/uploads/2022/08/Acuarela-2.jpg" class="img-fluid w-100 h-100" alt="restaurante"></div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "><img src="https://desdelafe.mx/wp-content/uploads/2018/06/superacionpersonalaca.jpg" class="img-fluid w-100 h-100" alt="plato tipico venezolano llamdo pabellon criollo"></div>
+                        </div>
+            
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://img2.rtve.es/i/?w=1600&i=01715014988019.jpg" class="img-fluid w-100 h-100" alt="imagen playa la barceloneta"> </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/5f/26/2c.jpg" class="img-fluid w-100 h-100" alt="restaurante"></div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "><img src="https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513-2048x1024.jpg" class="img-fluid w-100 h-100" alt="plato tipico venezolano llamdo pabellon criollo"></div>
+                        </div>
+                    </div>
+                </div>
+
+     <!-- ICON SOLID-SQUARE -->
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"> 
+                    <div class="container">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3>BOXEO</h3>
+                                        <p>08/26</p>
+                                    </div>
+                                    <img src="https://www.cmdsport.com/app/uploads/2023/07/boxeo-mma.jpg" class="img-fluid w-100 h-100" alt="deporte boxeo">
+                                    <p class="fw-bold px-2">642 likes</p>
+                                    <p class="card-text px-2">El boxeo es un deporte de combate que exige gran destreza física y mental. Los boxeadores deben combinar fuerza, estrategia y resistencia para vencer a su oponente, todo dentro de un marco de disciplina y control emocional. Es más que solo golpes, es una prueba de voluntad y técnica.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3> Guitarra electrica</h3>
+                                        <p>07/24</p>
+                                    </div>
+                                    <img src="https://instrumentarte.com/wp-content/uploads/2017/10/consejos-guitarristas-conciertos.jpg" class="img-fluid w-100 h-100" alt="persona tocando guitarra">
+                                    <p class="fw-bold px-2">132 likes</p>
+                                    <p class="card-text px-2">Tocar la guitarra es una forma de expresión musical que permite a los músicos transmitir emociones a través de sus cuerdas. Con práctica y dedicación, se pueden dominar desde simples acordes hasta complejos solos. La guitarra es un instrumento versátil y esencial en muchos géneros musicales.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3>El pabellón criollo </h3>
+                                        <p>06/14</p>
+                                    </div>
+                                    <img src="https://elrincondelaabuelavenezolana.com/wp-content/uploads/2018/03/el-pabellon-criollo-del-rincon-abuela-venezolana.jpg" class="img-fluid w-100 h-100" alt="plato tipico venezolano llamdo pabellon criollo">
+                                    <p class="fw-bold px-2">800 likes</p>
+                                    <p class="card-text px-2">El pabellón criollo es un plato tradicional que forma parte de la gastronomía venezolana, y es reconocido como el plato nacional por excelencia. El pabellón criollo tradicional está compuesto por arroz blanco cocido, carne mechada, caraotas negras «refritas» (guisadas y luego sofritas en mantequilla o aceite), tajadas de plátano maduro frito y queso blanco entero</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3> Chanchito feliz  </h3>
+                                        <p>08/26</p>
+                                    </div>
+                                    <img src="https://ongteprotejo.org/wp-content/uploads/2014/10/adorable-chanchito-feliz.jpg" class="img-fluid w-100 h-100" alt="imagen playa la barceloneta">
+                                    <p class="fw-bold px-2">1400 likes</p>
+                                    <p class="card-text px-2">Lindo cerdo bebé relajándose y disfrutando de la vida y las sonrisas, iluminado por el sol</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3>Guerrero ninja</h3>
+                                        <p>05/26</p>
+                                    </div>
+                                    <img src="https://lacasadegestalt.es/wp-content/uploads/2022/08/Acuarela-2.jpg" class="img-fluid w-100 h-100" alt="foto guerrero ninja">
+                                    <p class="fw-bold px-2">600 likes</p>
+                                    <p class="card-text px-2"> El coraje no es la ausencia de miedo, sino el juicio de que algo es más importante que el miedo.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3>Superacion  </h3>
+                                        <p>04/07</p>
+                                    </div>
+                                    <img src="https://desdelafe.mx/wp-content/uploads/2018/06/superacionpersonalaca.jpg" class="img-fluid w-100 h-100" alt="imagen de superacion">
+                                    <p class="fw-bold px-2">204 likes</p>
+                                    <p class="card-text px-2">Hablemos de superación personal”. Pero de esa que se consigue para toda la vida y que no tiene nada que ver con el dinero, ni la fama, ni las pertenencias, ni la apariencia, ni el género, ni la posición social. Se trata de una superación totalmente diferente, […]  </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3>Don vito corleone</h3>
+                                        <p>03/30</p>
+                                    </div>
+                                    <img src="https://img2.rtve.es/i/?w=1600&i=01715014988019.jpg" class="img-fluid w-100 h-100" alt="todo de vito corleone">
+                                    <p class="fw-bold px-2">900 likes</p>
+                                    <p class="card-text px-2">Don Corleone es un gran líder, bárbaro, un hombre que sitúa la amistad, la lealtad, y la familia en lo más alto de la lista de virtudes, que tiene un código de honor y decoro, que lo hace despreciar el tráfico de drogas, y que valora su palabra manteniéndose en una antigua moralidad sexual.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3>  Guatape - Medellin </h3>
+                                        <p>03/10</p>
+                                    </div>
+                                    <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/5f/26/2c.jpg" class="img-fluid w-100 h-100" alt="foto del peñol en medellin">
+                                    <p class="fw-bold px-2">300 likes</p>
+                                    <p class="card-text px-2">Guatapé es un municipio turístico de los Andes al noroeste de Colombia y al este de Medellín. Es famoso por sus casas decoradas con bajorrelieves de colores. Está situado cerca del embalse artificial de Peñol-Guatapé, un centro de deportes acuáticos muy concurrido.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-secondary mb-3" style="max-width: 31.25rem;">
+                                    <div class="card-header bg-transparent border-success d-flex justify-content-between">
+                                        <h3> Programación</h3>
+                                        <p>02/09</p>
+                                    </div>
+                                    <img src="https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513-2048x1024.jpg" class="img-fluid w-100 h-100" alt="foto de codigo">
+                                    <p class="fw-bold px-2">820 likes</p>
+                                    <p class="card-text px-2">Programar es más que escribir líneas de código; es un proceso creativo que transforma ideas abstractas en soluciones concretas. Cada algoritmo es una herramienta que resuelve problemas complejos, y cada línea de código es un paso hacia la creación de algo innovador. En el fondo, programar es aprender a pensar de manera estructurada y a dar forma a un futuro digital que cambia constantemente.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+    <!-- Modal de create a new post -->
+    <div class="modal fade" id="exampleModal" tabinde p-1 " aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="recipient-name" class="col-form-label">Create a new post:</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Add the caption of your post here">
+                    <i class="fa-solid fa-camera p-1  bs-tertiary-bg p-2 my-2 bg-light rounded"></i>
+                    <i class="fa-solid fa-location-dot bs-tertiary-bg p-2 my-2 bg-light rounded"></i>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
