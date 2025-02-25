@@ -9,37 +9,41 @@
 </head>
 <body>
     <!-- instagram icon -->
-    <nav class="navbar bg-body-tertiary p-1">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <i class="fa-brands fa-instagram"></i>
                 Instagram
             </a>
-            <div class="row gx-2">
-                <!-- Button crear nuevo post -->
-                <div class="col-9 p-1  align-self-start">
-                    <button type="button" class="btn btn-success gx-0;" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Create a new post
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button type="button" class="btn btn-success ms-auto me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+                <div class="dropdown-center me-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
                     </button>
-                </div>
-              <!-- GEAR ICON -->
-                <div class="col-3 p-1  align-self-start gx-0">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-secondary dropdown-toggle me-1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-gear"></i>
-                        </button>
-                        <ul class="dropdown-menu  dropdown-menu-end">
+                    <ul class="dropdown-menu  dropdown-menu-end">
                         <li><a class="dropdown-item" href="#">Profile</a></li>
                         <li><a class="dropdown-item" href="#">Accesibility</a></li>
                         <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-             </div>
+
+            </div>
         </div>
     </nav>
+
+
+
      <!-- ICON TABLE-CELL -->
             <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -57,15 +61,9 @@
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 "> <img src="https://www.cmdsport.com/app/uploads/2023/07/boxeo-mma.jpg" class="img-fluid w-100 h-100" alt="deporte boxeo"> </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 "> <img src="https://instrumentarte.com/wp-content/uploads/2017/10/consejos-guitarristas-conciertos.jpg" class="img-fluid w-100 h-100" alt="persona tocando guitarra"></div>
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 "><img src="https://elrincondelaabuelavenezolana.com/wp-content/uploads/2018/03/el-pabellon-criollo-del-rincon-abuela-venezolana.jpg" class="img-fluid w-100 h-100" alt="plato tipico venezolano llamdo pabellon criollo"></div>
-                        </div>
-            
-                        <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://ongteprotejo.org/wp-content/uploads/2014/10/adorable-chanchito-feliz.jpg" class="img-fluid w-100 h-100" alt="imagen playa la barceloneta"> </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://lacasadegestalt.es/wp-content/uploads/2022/08/Acuarela-2.jpg" class="img-fluid w-100 h-100" alt="restaurante"></div>
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "><img src="https://desdelafe.mx/wp-content/uploads/2018/06/superacionpersonalaca.jpg" class="img-fluid w-100 h-100" alt="plato tipico venezolano llamdo pabellon criollo"></div>
-                        </div>
-            
-                        <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://img2.rtve.es/i/?w=1600&i=01715014988019.jpg" class="img-fluid w-100 h-100" alt="imagen playa la barceloneta"> </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "> <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/5f/26/2c.jpg" class="img-fluid w-100 h-100" alt="restaurante"></div>
                             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1  "><img src="https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513-2048x1024.jpg" class="img-fluid w-100 h-100" alt="plato tipico venezolano llamdo pabellon criollo"></div>
